@@ -1,0 +1,765 @@
+
+		body {
+			margin: 0px;
+			font-family: "Poppins", sans-serif;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		#container-1 {
+			width: 100%;
+			height: 740px;
+			background-image: url("img/slider-bg.jpg");
+		}
+
+		#container-1 i {
+			color: white;
+			float: right;
+			position: sticky;
+			top: 30px;
+			right: 40px;
+		}
+
+		#container-1 span {
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			color: white;
+			font-size: 22px;
+			font-weight: 700;
+		}
+
+
+		.box-1 {
+			padding-top: 180px;
+			padding-left: 200px;
+			color: white;
+			width: 350px;
+			height: 200px;
+			font-family: 'Playfair Display', serif;
+			font-weight: bold;
+			font-size: 25px;
+		}
+
+		.box-2 {
+
+			padding-left: 200px;
+			color: white;
+			width: 500px;
+			height: 80px;
+			position: relative;
+			bottom: 50px;
+			line-height: 23px;
+		}
+
+		.button-1 {
+			background-color: transparent;
+			color: rgb(253, 156, 107);
+			border: 1px solid rgb(253, 156, 107);
+			font-size: 16px;
+			width: 150px;
+			height: 45px;
+			border-radius: 4px;
+			position: relative;
+			bottom: 20px;
+			left: 200px;
+		}
+
+		.button-1 a {
+			color: white;
+			text-decoration: none;
+		}
+
+		.button-1:hover {
+			background: rgb(253, 156, 107);
+			color: white;
+			border: 1px solid rgb(253, 156, 107);
+		}
+
+		#container-2 {
+			display: flex;
+			justify-content: center;
+			margin-top: 50px;
+
+		}
+
+		#container-2 .box {
+			height: 277px !important;
+		}
+
+		#container-3 {
+			display: flex;
+			justify-content: center;
+			margin-top: 30px;
+		}
+
+		#container-2 span {
+			color: rgb(253, 156, 107);
+		}
+
+		#container-3 span {
+			color: rgb(253, 156, 107);
+		}
+
+		.box {
+			width: 250px;
+			height: 270px;
+			background-color: rgb(238, 238, 238);
+			margin: 5px 25px;
+		}
+
+		.box img {
+			width: 160px;
+			height: 150px;
+			margin-left: 40px;
+			margin-top: 10px;
+
+
+		}
+
+		.box .box-content {
+			display: flex;
+
+
+
+		}
+
+		.box-content-1 {
+			font-size: 16px;
+			padding-left: 10px;
+			position: relative;
+			bottom: 10px;
+
+
+		}
+
+		.heading-1 {
+			text-align: center;
+			margin-top: 80px;
+			font-weight: bold;
+			font-size: 32px;
+		}
+
+		.box-content-2 {
+			margin-left: 80px;
+			font-size: 16px;
+			position: relative;
+			bottom: 10px;
+		}
+
+		.box-content-3 {
+			margin-left: 110px;
+			font-size: 16px;
+			position: relative;
+			bottom: 10px;
+		}
+
+		.box-content-4 {
+			margin-left: 110px;
+			font-size: 16px;
+			position: relative;
+			bottom: 10px;
+		}
+
+		.box-content-5 {
+			margin-left: 80px;
+			font-size: 16px;
+			position: relative;
+			top: 30px;
+		}
+
+		.box-content-6 {
+			margin-left: 10px;
+			font-size: 16px;
+			position: relative;
+			top: 30px;
+		}
+
+		.box-content-8 {
+			margin-left: 80px;
+			font-size: 16px;
+		}
+
+		.box-content-7 {
+			margin-left: 10px;
+			font-size: 16px;
+		}
+
+		.box-content-10 {
+			margin-left: 80px;
+			font-size: 16px;
+		}
+
+		.box-content-9 {
+			margin-left: 10px;
+			font-size: 16px;
+		}
+
+		.new-2 {
+			background-color: white;
+			margin-left: 8px;
+			width: 45px;
+			height: 45px;
+			border-radius: 50%;
+		}
+
+		.new-2 h3 {
+			text-align: center;
+			font-size: 13px;
+			padding-top: 14px;
+		}
+
+		.img-5 {
+			width: 160px !important;
+			height: 140px !important;
+			margin-left: 50px !important;
+		}
+
+		.img-6 {
+			width: 150px !important;
+			height: 100px !important;
+			margin-left: 50px !important;
+		}
+
+		.img-7 {
+			width: 60px !important;
+			height: 130px !important;
+			margin-left: 90px !important;
+		}
+
+		.img-8 {
+			position: relative;
+			width: 90px !important;
+			height: 130px !important;
+			top: 4px;
+			left: 30px;
+		}
+
+		.button-2 {
+			background-color: rgb(253, 156, 107);
+			color: white;
+			border: 1px solid rgb(253, 156, 107);
+			font-size: 16px;
+			width: 190px;
+			height: 45px;
+			border-radius: 4px;
+			position: relative;
+			top: 50px;
+			left: 665px;
+
+		}
+
+		.button-2:hover {
+			background: white;
+			color: rgb(253, 156, 107);
+			border: 1px solid rgb(253, 156, 107);
+		}
+
+		.shop {
+			z-index: 100;
+			width: 520px;
+			height: 280px;
+			position: relative;
+			left: 25px;
+			top: 25px;
+		}
+
+		.black-box {
+			width: 250px;
+			height: 250px;
+			position: relative;
+			top: 100px;
+			left: 190px;
+			right: 0;
+			bottom: 0;
+			background-color: rgb(22, 14, 11);
+		}
+
+		#container-4 {
+			display: flex;
+
+		}
+
+		.written {
+			position: relative;
+			left: 530px;
+			top: 150px;
+		}
+
+		.written p {
+			width: 450px;
+			height: 100px;
+			font-size: 16px;
+		}
+
+		.button-3 {
+			background-color: rgb(253, 156, 107);
+			color: white;
+			border: 1px solid rgb(253, 156, 107);
+			font-size: 16px;
+			width: 180px;
+			height: 45px;
+		}
+
+		.button-3:hover {
+			background: white;
+			color: rgb(253, 156, 107);
+			border: 1px solid rgb(253, 156, 107);
+		}
+
+		#areba-main {
+			width: 100%;
+			height: 600px;
+			margin-top: 180px;
+			overflow: hidden;
+		}
+
+		.areba-1 {
+			width: 52%;
+			height: 600px;
+			float: left;
+			margin-top: 60px;
+			margin-left: 40px;
+			background-image: url("img/o1.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+
+		}
+
+		.areba-jana {
+			width: 45%;
+			height: 600px;
+			float: right;
+			margin-top: 50px;
+		}
+
+		.areba-1img {
+			width: 96%;
+			height: 260px;
+			background-image: url("img/o2.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			margin: 10px 0 20px 10px;
+		}
+
+		.areba-2img {
+			width: 96%;
+			height: 300px;
+			background-image: url("img/o3.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			margin: 10px 0 0px 10px;
+		}
+
+		.areba-1 h2 {
+			color: white;
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+			font-weight: bold;
+			margin-left: 30px;
+			margin-bottom: 15px;
+		}
+
+		.button-4 {
+			background-color: transparent;
+			color: rgb(253, 156, 107);
+			border: 1px solid rgb(253, 156, 107);
+			font-size: 16px;
+			width: 180px;
+			height: 45px;
+			margin-left: 30px;
+		}
+
+		.button-4:hover {
+			background: rgb(253, 156, 107);
+			color: white;
+			border: 1px solid rgb(253, 156, 107);
+
+		}
+
+		.areba-1img h2 {
+			color: white;
+			font-family: 'Playfair Display', serif;
+			font-size: 32px;
+			font-weight: bold;
+			float: right;
+			margin-right: 30px;
+			margin-top: 145px;
+		}
+
+		.button-5 {
+			background-color: transparent;
+			color: rgb(253, 156, 107);
+			border: 1px solid rgb(253, 156, 107);
+			font-size: 16px;
+			width: 180px;
+			height: 45px;
+			float: right;
+			position: relative;
+			left: 190px;
+			top: 195px;
+		}
+
+		.button-5:hover {
+			background: rgb(253, 156, 107);
+			color: white;
+			border: 1px solid rgb(253, 156, 107);
+
+		}
+
+		.areba-2img h2 {
+			color: white;
+			font-family: 'Playfair Display', serif;
+			font-size: 32px;
+			font-weight: bold;
+			padding-top: 140px;
+			padding-left: 30px;
+
+		}
+
+		.button-6 {
+			background-color: transparent;
+			color: rgb(253, 156, 107);
+			border: 1px solid rgb(253, 156, 107);
+			font-size: 16px;
+			width: 180px;
+			height: 45px;
+			left: 33px;
+			position: relative;
+			bottom: 15px;
+		}
+
+		.button-6:hover {
+			background: rgb(253, 156, 107);
+			color: white;
+			border: 1px solid rgb(253, 156, 107);
+
+		}
+
+
+		#boxi-main {
+			width: 100%;
+			height: 600px;
+			display: flex;
+		}
+
+		#boxi-main p {
+			font-size: 16px;
+			margin-left: 20px;
+			position: relative;
+			bottom: 50px;
+		}
+
+		.sixty-9 {
+			font-size: 32px;
+			font-weight: bold;
+			font-family: 'Playfair Display', serif;
+			margin-top: 130px;
+			margin-bottom: 70px;
+			text-align: center;
+		}
+
+		.boxi-1 {
+			width: 50%;
+			height: 600px;
+			margin-left: 200px;
+			position: relative;
+
+		}
+
+		.boxi-1 img {
+			width: 550px;
+			height: 410px;
+		}
+
+		.boxi1-content {
+
+			width: 84.5%;
+			height: 200px;
+			background-color: rgb(241, 242, 243);
+			position: relative;
+			bottom: 10px;
+		}
+
+		.boxi1-content h5 {
+			font-family: "Poppins", sans-serif;
+			font-size: 1.25rem;
+			font-weight: bold;
+			margin-left: 20px;
+			margin-bottom: 1px;
+			position: relative;
+			bottom: 50px;
+		}
+
+		.button-7 {
+			background-color: transparent;
+			color: rgb(22, 14, 11);
+			border: 1px solid rgb(22, 14, 11);
+			font-size: 16px;
+			width: 180px;
+			height: 45px;
+			margin-left: 30px;
+			position: relative;
+			bottom: 50px;
+		}
+
+		.button-7:hover {
+			background: rgb(22, 14, 11);
+			color: white;
+			border: 1px solid rgb(22, 14, 11);
+
+		}
+
+		.date-1 {
+			width: 60px;
+			height: 55px;
+			border: 3px solid white;
+			background-color: rgb(22, 14, 11);
+			color: white;
+			position: relative;
+			bottom: 40px;
+			left: 30px;
+
+		}
+
+		.date-1 span {
+			font-size: 18px;
+			font-weight: bold;
+			margin-left: 13px;
+		}
+
+		.hasi {
+			position: relative;
+			top: 7px;
+		}
+
+		.boxi-2 {
+			width: 50%;
+			height: 600px;
+			margin-left: 10px;
+
+			position: relative;
+			right: 80px;
+
+
+		}
+
+		.boxi2-content {
+
+			width: 84%;
+			height: 200px;
+			background-color: rgb(241, 242, 243);
+			position: relative;
+			bottom: 10px;
+
+		}
+
+		.boxi2-content h5 {
+			font-family: "Poppins", sans-serif;
+			font-size: 1.25rem;
+			font-weight: bold;
+			margin-left: 20px;
+			margin-bottom: 1px;
+			position: relative;
+			bottom: 50px;
+		}
+
+		.boxi-2 img {
+			width: 550px;
+			height: 410px;
+		}
+
+		#testi {
+			margin-left: 370px;
+			width: 790px;
+			height: 300px;
+			border: 2px solid black;
+			background-color: rgb(22, 14, 11);
+			border-radius: 18px;
+		}
+
+		.client-img img {
+			margin-left: 320px;
+			margin-top: 30px;
+			width: 130px;
+			height: 130px;
+			border-radius: 50%;
+			border: 5px solid rgb(127, 123, 121);
+		}
+
+		.teto h6 {
+			color: rgb(253, 156, 107);
+			font-size: 22px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+
+		.teto p {
+			color: white;
+
+			text-align: center;
+			font-size: 16px;
+		}
+
+		.headeing {
+			font-size: 32px;
+			font-weight: bold;
+			font-family: 'Playfair Display', serif;
+			text-align: center;
+			margin-top: 80px;
+			margin-bottom: 40px;
+		}
+
+		.button-9 {
+			width: 50px;
+			height: 30px;
+			color: white;
+			background-color: rgb(253, 156, 107);
+			border: none;
+
+		}
+
+		.button-9:hover {
+			background-color: rgb(22, 14, 11);
+			color: white;
+		}
+
+		.buti {
+			margin-left: 710px;
+			margin-top: 50px;
+		}
+
+		#last-container {
+			width: 100%;
+			height: 350px;
+			margin-top: 50px;
+			background-color: rgb(22, 14, 11);
+		}
+
+		.mail input {
+			width: 800px;
+			height: 50px;
+			margin-top: 40px;
+			margin-left: 160px;
+		}
+
+		.icons {
+			float: right;
+			color: white;
+			position: relative;
+			top: 40px;
+			right: 230px;
+
+
+
+		}
+
+		.icons button {
+			width: 55px;
+			height: 55px;
+			color: white;
+			background-color: rgb(22, 14, 11);
+			border: 1px solid white;
+		}
+
+		.icons button:hover {
+			color: rgb(253, 156, 107);
+			border: 1px solid rgb(253, 156, 107);
+		}
+
+		.button-10 {
+			width: 60px;
+			height: 55px;
+			color: white;
+			background-color: rgb(253, 156, 107);
+			position: relative;
+			right: 5px;
+		}
+
+		.button-10:hover {
+			background-color: transparent;
+			color: rgb(253, 156, 107);
+			border: 2px solid rgb(253, 156, 107);
+		}
+
+		#main-one {
+			display: flex;
+			color: white;
+			margin-top: 40px;
+
+		}
+
+		#main-one h4 {
+			font-size: 22px;
+			font-weight: bold;
+		}
+
+		.one {
+			width: 120px;
+			height: 180px;
+			margin-left: 160px;
+			color: white;
+		}
+
+		.one li {
+			list-style: none;
+			line-height: 28px;
+		}
+
+		.one a {
+			color: white;
+			text-decoration: none;
+			position: relative;
+			right: 40px;
+
+		}
+
+		.two {
+			width: 150px;
+			height: 180px;
+			margin-left: 100px;
+		}
+
+		.three {
+			width: 250px;
+			height: 180px;
+			margin-left: 100px;
+		}
+
+		.three p {
+			font-size: 17px;
+		}
+
+		.four {
+			width: 190px;
+			height: 180px;
+			margin-left: 60px;
+		}
+
+		.four li {
+			list-style: none;
+			line-height: 28px;
+		}
+
+		.four a {
+			color: white;
+			text-decoration: none;
+			position: relative;
+			right: 40px;
+		}
+
+		.mail ::placeholder {
+			font-size: 16px;
+			font-weight: 600;
+		}
+
+		.mail input {
+			font-size: 14px;
+			font-weight: 400;
+		}
